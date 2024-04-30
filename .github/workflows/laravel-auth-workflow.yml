@@ -21,10 +21,10 @@ jobs:
 
       - name: Laravel Auth Image Build
         run: |
-          docker build -t MalakNasser/laravel-auth:latest .
+          docker build -t malaknasser26/laravel-auth:latest .
 
       - name: Laravel Auth Image Push
         run: |
-          docker push MalakNasser/laravel-auth:latest
+          docker push malaknasser26/laravel-auth:latest
           
    
